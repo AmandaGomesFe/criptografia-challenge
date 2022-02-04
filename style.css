@@ -6,10 +6,10 @@
 
 body{
 
-    min-width: 400px;  
+    min-width: 300px;  
     max-width: 1600px;  
     
-    min-height: 700px;
+    min-height: 600px;
     max-height: 775px;
     background-color: rgb(51, 51, 51);
     background-image: url(img/cryptography.png);
@@ -29,6 +29,7 @@ body{
 
     color: white;
     text-shadow: 5px, 5px, 5px 5px, red;
+    letter-spacing: 5px;
 
     
 
