@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    
+    <header class="titulo">
+        <h1>Código Secreto</h1>
+    </header>
+
+    <main class= "caixas">
+    <section class="caixaCript">
+        <form id="formulario">
+
+            <label for="input-texto">Apenas letras minúsculas, sem acento</label>
+
+            <input type="text" id="textoDigitado" placeholder="Digite um texto..." class="inputs" pattern="[a-zA-Z0-9]+">
+
+            <button id="cript" class="button">Criptografar</button>
+
+            <button id="descript" class="button">Descriptografar</button>
+          
+        </form>
+
+    </section>
+
+    <section  id="mensagem-criptografada" class="caixaCript">
+        <h2>Mensagem Criptografada</h2>
+        <form action="">
+            <input type="text" id="msg" class="inputs">
+            <button id="copy" class="button">Copiar</button>
+            
+           
+        </form>
+    </section>
+
+    </main>
+
+    <footer>
+        Site desenvolvido por Amanda Gomes para o Challenge do Programa ONE.
+    </footer>
+    
+    
+    <script src="_javascript/script.js"></script>
+</body> 
+</html>
+
